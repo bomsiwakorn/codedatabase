@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="resized/logo.png">
+    <link rel="stylesheet" href="style/home.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/logo.jpg" alt="logo">
+                    <h1>M&M Toy Shop</h1>
+                </div>
+                <div class="menu">
+                    <ul class="menu-items">
+                        <input type="text" name="search-product" class="search-product" placeholder="Search porduct.." >
+                         <li><a href="#" type="submit" id="togglesearchbtn" ><i class="fas fa-search"></i></a></li>
+                      
+                         <div class="orderlist-hover">
+                            <li><a href="#" id="orderlist-hover"><i class="fas fa-clipboard-list"></i></a></li>
+                                <div class="box-orderlist">
+                                    <p>Order List</p>
+                                </div>
+                      
+                            </div>
+                       <div class="shoppingcart-hover">
+                            <li><a href="#" id="shoppingcart-hover"><i class="fas fa-shopping-cart"></i></a></li>
+                            <div class="box-shoppingcart">
+                                <p>Shopping Cart</p>
+                            </div>
+                        </div>
+
+                        <div class="user-logout">
+                         <li><a href="#" id="logoutbtn"><i class="fas fa-user"></i></a></li>
+                            <div class="box-logout">
+                               <p><a href="welcome.html">Log out</a></p> 
+                            </div>
+                        </div>
+
+                    </ul>
+    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="category">
+        <div class="container">
+
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script/home.js"></script>
+</body>
+</html>
